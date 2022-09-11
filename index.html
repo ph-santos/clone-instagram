@@ -5,36 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./estilo.css">
     <title>Istagram</title>
 </head>
 <body>
-    <div>
-        <img class="cellphone" src="./assets/images/celular.png" alt="Celular">
-    </div>
-    
-    <div class="container-itens">
-        <div class="container-form">
-            <img class="insta-logo" src="./assets/images/insta-logo.png" alt="">
-            
-            <input type="text" placeholder="Telefone, nome de usuário ou email">
-            <input type="password" placeholder="Senha">
-            
-            <button>Entrar</button>
-            
-            <a class="login-facebook" href="#">Entrar com o Faceboock</a>
-            <a class="esqueceu-senha" href="#">Esqueceu a senha?</a>
-        </div>
+    <div class="container">
+        <div class="container-imagens">
+            <img class="celular" src="./assets/images/celular.png" alt="Celular">
 
-        <div>
-            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+            <img class="imagem-celular" id="first-image" src="./assets/images/insta1.png" alt="Imagem">
+
+            <img class="imagem-celular" id="second-image" src="./assets/images/insta2.png" alt="Imagem">
         </div>
         
-        <p>Obtenha o aplicativo.</p>
-
-        <div>
-            <img src="./assets/images/ios.png" alt="App Store">
-            <img src="./assets/images/google-play.png" alt="Google-play">
+        <div class="container-itens">
+            <div class="container-form">
+                <img class="insta-logo" src="./assets/images/insta-logo.png" alt="">
+        
+                <input type="text" placeholder="Telefone, nome de usuário ou email">
+                <input type="password" placeholder="Senha">
+        
+                <button>Entrar</button>
+        
+                <div class="facebook">
+                    <img class="facebook-log" src="assets/images/facebook-logo.png" alt="Logo do Facebook">
+        
+                    <a class="login-facebook" href="#">Entrar com o Faceboock</a>
+                </div>
+        
+                <a class="esqueceu-senha" href="#">Esqueceu a senha?</a>
+            </div>
+            <div class="container-cadastro">
+                <p class="paragrafo-conta">Não tem uma conta? <a href="#" class="link-cadastro">Cadastre-se</a></p>
+            </div>
+        
+            <p class="paragrafo-app">Obtenha o aplicativo.</p>
+            <div class="container-app">
+                <a href="#">
+                    <img class="logo-app" src="./assets/images/ios.png" alt="App Store">
+                </a>
+                <a href="#">
+                    <img class="logo-app" src="./assets/images/google-play.png" alt="Google-play">
+                </a>
+            </div>
         </div>
     </div>
+
+    <script src="./assets/script.js"></script>
 </body>
 </html>
